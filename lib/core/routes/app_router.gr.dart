@@ -4,7 +4,7 @@
 // AutoRouterGenerator
 // **************************************************************************
 
-// ignore_for_file: type=lint
+// ignore_for_file: type=lint, unused_element_parameter
 // coverage:ignore-file
 
 part of 'app_router.dart';
@@ -52,10 +52,7 @@ abstract class _$AppRouter extends RootStackRouter {
 /// [Onboarding]
 class OnboardingRoute extends PageRouteInfo<void> {
   const OnboardingRoute({List<PageRouteInfo>? children})
-      : super(
-          OnboardingRoute.name,
-          initialChildren: children,
-        );
+    : super(OnboardingRoute.name, initialChildren: children);
 
   static const String name = 'OnboardingRoute';
 
@@ -66,10 +63,7 @@ class OnboardingRoute extends PageRouteInfo<void> {
 /// [SelectCountry]
 class SelectCountryRoute extends PageRouteInfo<void> {
   const SelectCountryRoute({List<PageRouteInfo>? children})
-      : super(
-          SelectCountryRoute.name,
-          initialChildren: children,
-        );
+    : super(SelectCountryRoute.name, initialChildren: children);
 
   static const String name = 'SelectCountryRoute';
 
@@ -80,10 +74,7 @@ class SelectCountryRoute extends PageRouteInfo<void> {
 /// [SignUp]
 class SignUpRoute extends PageRouteInfo<void> {
   const SignUpRoute({List<PageRouteInfo>? children})
-      : super(
-          SignUpRoute.name,
-          initialChildren: children,
-        );
+    : super(SignUpRoute.name, initialChildren: children);
 
   static const String name = 'SignUpRoute';
 
@@ -94,10 +85,7 @@ class SignUpRoute extends PageRouteInfo<void> {
 /// [SplashScreen]
 class SplashScreenRoute extends PageRouteInfo<void> {
   const SplashScreenRoute({List<PageRouteInfo>? children})
-      : super(
-          SplashScreenRoute.name,
-          initialChildren: children,
-        );
+    : super(SplashScreenRoute.name, initialChildren: children);
 
   static const String name = 'SplashScreenRoute';
 
@@ -108,10 +96,7 @@ class SplashScreenRoute extends PageRouteInfo<void> {
 /// [VerifyEmail]
 class VerifyEmailRoute extends PageRouteInfo<void> {
   const VerifyEmailRoute({List<PageRouteInfo>? children})
-      : super(
-          VerifyEmailRoute.name,
-          initialChildren: children,
-        );
+    : super(VerifyEmailRoute.name, initialChildren: children);
 
   static const String name = 'VerifyEmailRoute';
 
