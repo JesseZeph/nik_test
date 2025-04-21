@@ -17,8 +17,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(
-      const Duration(seconds: 3),
-      () => context.router.pushNamed('/onboarding'),
+      const Duration(seconds: 2),
+      () => context.router.replaceNamed('/onboarding'),
     );
   }
 
